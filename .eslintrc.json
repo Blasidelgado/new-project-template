@@ -34,7 +34,9 @@
         "react"
     ],
     "rules": {
-        "indent": 0,
+				"indent": 0,
+				"no-tabs": 0,
+				"react/jsx-indent": 0,
         "react/prop-types": 0,
         "arrow-body-style": 0
     }

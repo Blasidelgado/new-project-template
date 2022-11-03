@@ -15,8 +15,9 @@ module.exports = {
     entry: './src/index.jsx',
     output: {
         path: path.join(__dirname, '/dist'),
-        filename: 'bundle.[hash].js',
+        filename: 'bundle.[fullhash].js',
         publicPath: '/',
+				clean: true,
     },
     context: path.resolve(__dirname),
     devServer: {
